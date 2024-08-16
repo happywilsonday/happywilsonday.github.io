@@ -1,0 +1,31 @@
+.landingwrapper {
+    width:100%;
+}
+
+.hbdwilson {
+    font-family:'Chakra Petch';
+    font-weight:600;
+    font-size:5em;
+    max-width:8em;
+    text-align:center;
+    margin-bottom:.5em;
+}
+
+.landingtextcontainer {
+    max-width:50%;
+}
+
+.landingbuttons {
+    font-family:'VT323';
+    text-align:center;
+}
+
+.landingbuttons button {
+    background-color:#F5EB28;
+    color:#457EAA;
+    font-size:2em;
+    border-radius:.25em;
+    border:none;
+    box-shadow: #8CF0FF .25em .25em 0 0;
+    margin-bottom:1em;
+}
