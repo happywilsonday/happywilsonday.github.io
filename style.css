@@ -1,3 +1,5 @@
+/* LANDING PAGE ------------------------------------------------------------- */
+
 .landingwrapper {
     width:100%;
 }
@@ -28,4 +30,49 @@
     border:none;
     box-shadow: #8CF0FF .25em .25em 0 0;
     margin-bottom:1em;
+}
+
+/* SNS PROJECTS PAGE--------------------------------------------------------- */
+
+.snsimgwrap img {
+    max-width:20em;
+    margin-bottom:3em;
+}
+
+.snstextwrap {
+    max-width:40em!important;
+    text-align:left;
+    margin-bottom:3em;
+    font-family:"Nunito";
+}
+
+.pagetitle {
+    font-family: "Chakra Petch";
+    font-size: 4em;
+    font-weight:600;
+}
+
+.snstitle {
+    font-family: "Chakra Petch";
+}
+
+.snslink {
+    font-family: "VT323"
+}
+
+/* MOBILE OPTIMIZATION ------------------------------------------------------ */
+
+@media (max-width: 700px) {
+    /* SNS PAGE */
+    .snstextwrap, .snsimgwrap {
+        max-width:100%!important;
+    }
+
+    .snsimgwrap img {
+        max-width:100%!important;
+    }
+
+    .pagetitle {
+        font-size:3em;
+    }
 }
