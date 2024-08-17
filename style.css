@@ -42,8 +42,8 @@
 .snstextwrap {
     max-width:40em!important;
     text-align:left;
-    margin-bottom:3em;
     font-family:"Nunito";
+    margin-bottom:3em;
 }
 
 .pagetitle {
@@ -57,7 +57,7 @@
 }
 
 .snslink {
-    font-family: "VT323"
+    font-family: "VT323";
 }
 
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
