@@ -1,3 +1,11 @@
+/* UNIVERSAL ---------------------------------------------------------------- */
+
+body {
+	min-height:100vh;
+	height:100%;
+	background: white;
+}
+
 /* LANDING PAGE ------------------------------------------------------------- */
 
 .landingwrapper {
@@ -36,6 +44,15 @@
 .navbar {
 	background-color: #f5eb28;
 	font-family: "VT323";
+	color:#457eaa;
+}
+
+.navbar a {
+	color:#457eaa;
+}
+
+.navbar a:hover {
+	color:#0A2D55;
 }
 
 .navbar-brand {
@@ -58,8 +75,17 @@
 
 /* SNS PROJECTS PAGE--------------------------------------------------------- */
 
+.snswrapper a {
+	color:#457eaa
+}
+
+.snswrapper a:hover {
+	color:#0A2D55;
+}
+
 .snsimgwrap img {
 	max-width: 20em;
+	max-height:18em;
 	margin-bottom: 3em;
 }
 
@@ -82,11 +108,19 @@
 
 .snslink {
 	font-family: "VT323";
+	font-size:1.25em;
+}
+
+.chibi1 img {
+	max-width:12em;
+	position:absolute;
+	right:5em;
+	top:50%;
 }
 
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
 	/* SNS PAGE */
 	.snstextwrap,
 	.snsimgwrap {
@@ -99,5 +133,14 @@
 
 	.pagetitle {
 		font-size: 3em;
+	}
+
+	.chibi1 {
+		position:relative;
+		margin:auto;
+	}
+
+	.snswrapper {
+		margin-bottom:14em!important;
 	}
 }
