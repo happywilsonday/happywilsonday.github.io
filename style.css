@@ -1,78 +1,103 @@
 /* LANDING PAGE ------------------------------------------------------------- */
 
 .landingwrapper {
-    width:100%;
+	width: 100%;
 }
 
 .hbdwilson {
-    font-family:'Chakra Petch';
-    font-weight:600;
-    font-size:5em;
-    max-width:8em;
-    text-align:center;
-    margin-bottom:.5em;
+	font-family: "Chakra Petch";
+	font-weight: 600;
+	font-size: 5em;
+	max-width: 8em;
+	text-align: center;
+	margin-bottom: 0.5em;
 }
 
 .landingtextcontainer {
-    max-width:50%;
+	max-width: 50%;
 }
 
 .landingbuttons {
-    font-family:'VT323';
-    text-align:center;
+	font-family: "VT323";
+	text-align: center;
 }
 
 .landingbuttons button {
-    background-color:#F5EB28;
-    color:#457EAA;
-    font-size:2em;
-    border-radius:.25em;
-    border:none;
-    box-shadow: #8CF0FF .25em .25em 0 0;
-    margin-bottom:1em;
+	background-color: #f5eb28;
+	color: #457eaa;
+	font-size: 2em;
+	border-radius: 0.25em;
+	border: none;
+	box-shadow: #8cf0ff 0.25em 0.25em 0 0;
+	margin-bottom: 1em;
+}
+/*NAV BAR --------------------------------------------------------------------*/
+
+.navbar {
+	background-color: #f5eb28;
+	font-family: "VT323";
+}
+
+.navbar-brand {
+	font-size: 1.5rem !important;
+	letter-spacing: 0.04rem;
+}
+
+.nav-link {
+	font-size: 1.25rem;
+	letter-spacing: 0.03rem;
+}
+
+.custom-toggler .navbar-toggler {
+	border-color: #457eaa;
+}
+
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(69,126,170, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* SNS PROJECTS PAGE--------------------------------------------------------- */
 
 .snsimgwrap img {
-    max-width:20em;
-    margin-bottom:3em;
+	max-width: 20em;
+	margin-bottom: 3em;
 }
 
 .snstextwrap {
-    max-width:40em!important;
-    text-align:left;
-    font-family:"Nunito";
-    margin-bottom:3em;
+	max-width: 40em !important;
+	text-align: left;
+	font-family: "Nunito";
+	margin-bottom: 3em;
 }
 
 .pagetitle {
-    font-family: "Chakra Petch";
-    font-size: 4em;
-    font-weight:600;
+	font-family: "Chakra Petch";
+	font-size: 4em;
+	font-weight: 600;
 }
 
 .snstitle {
-    font-family: "Chakra Petch";
+	font-family: "Chakra Petch";
 }
 
 .snslink {
-    font-family: "VT323";
+	font-family: "VT323";
 }
 
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
 
 @media (max-width: 700px) {
-    /* SNS PAGE */
-    .snstextwrap, .snsimgwrap {
-        max-width:100%!important;
-    }
+	/* SNS PAGE */
+	.snstextwrap,
+	.snsimgwrap {
+		max-width: 100% !important;
+	}
 
-    .snsimgwrap img {
-        max-width:100%!important;
-    }
+	.snsimgwrap img {
+		max-width: 100% !important;
+	}
 
-    .pagetitle {
-        font-size:3em;
-    }
+	.pagetitle {
+		font-size: 3em;
+	}
 }
