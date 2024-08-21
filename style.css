@@ -121,6 +121,25 @@ body {
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
 
 @media (max-width: 1000px) {
+	/* LANDING PAGE */
+	#landingwilly {
+		max-width:100%!important;
+	}
+
+	.hbdwilson {
+		font-size:4em;
+		max-width:100%;
+	}
+
+	.landingbuttons {
+		font-size:.95em;
+	}
+
+	.landingtextcontainer,
+	.landingwillycontainer {
+		max-width:100%!important;
+	}
+
 	/* SNS PAGE */
 	.snstextwrap,
 	.snsimgwrap {
