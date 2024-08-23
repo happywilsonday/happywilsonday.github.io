@@ -1,1 +1,3 @@
-$('.first-step-carousel').carousel()
+$('.carousel').carousel({
+    interval:0
+})

@@ -1,12 +1,36 @@
 /* UNIVERSAL ---------------------------------------------------------------- */
 
+html {
+	height: 100%;
+}
+
 body {
-	min-height:100vh;
-	height:100%;
+	min-height: 100vh;
+	height: 100%;
 	background: white;
+	display: flex;
+	flex-flow: column;
 }
 
 /* LANDING PAGE ------------------------------------------------------------- */
+
+#landingwilly {
+	max-height: 90vh;
+	vertical-align: middle;
+}
+
+.landingwillycontainer {
+	white-space: nowrap;
+	text-align: center;
+	height: 100vh;
+}
+
+.landingwillycontainer:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
 
 .landingwrapper {
 	width: 100%;
@@ -39,20 +63,21 @@ body {
 	box-shadow: #8cf0ff 0.25em 0.25em 0 0;
 	margin-bottom: 1em;
 }
+
 /*NAV BAR --------------------------------------------------------------------*/
 
 .navbar {
 	background-color: #f5eb28;
 	font-family: "VT323";
-	color:#457eaa;
+	color: #457eaa;
 }
 
 .navbar a {
-	color:#457eaa;
+	color: #457eaa;
 }
 
 .navbar a:hover {
-	color:#0A2D55;
+	color: #0A2D55;
 }
 
 .navbar-brand {
@@ -76,16 +101,16 @@ body {
 /* SNS PROJECTS PAGE--------------------------------------------------------- */
 
 .snswrapper a {
-	color:#457eaa
+	color: #457eaa
 }
 
 .snswrapper a:hover {
-	color:#0A2D55;
+	color: #0A2D55;
 }
 
 .snsimgwrap img {
 	max-width: 20em;
-	max-height:18em;
+	max-height: 18em;
 	margin-bottom: 3em;
 }
 
@@ -108,36 +133,83 @@ body {
 
 .snslink {
 	font-family: "VT323";
-	font-size:1.25em;
+	font-size: 1.25em;
 }
 
 .chibi1 img {
-	max-width:12em;
-	position:absolute;
-	right:5em;
-	top:50%;
+	max-width: 12em;
+	position: absolute;
+	right: 5em;
+	top: 50%;
+}
+
+/* FIRST STEPS PAGE --------------------------------------------------------- */
+
+#first-steps-carousel img {
+	margin: auto;
+	max-height: calc(100vh - 3.9em);
+	max-width: 100vw;
+	vertical-align: middle;
+}
+
+#first-steps-carousel {
+	margin: auto;
+	width: 100%;
+	height: calc(100vh - 3.9em);
+}
+
+.carousel-inner {
+	width: 100%;
+	height: calc(100vh - 3.9em);
+}
+
+.imgwrap {
+	width: 100%;
+	height: calc(100vh - 3.9em);
+	white-space: nowrap;
+	text-align: center;
+}
+
+.imgwrap:before {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	content: "";
+}
+
+.first-steps-body {
+	background-color: #061d38;
+}
+
+.carousel-caption {
+	text-shadow: 
+    -1px -1px 0 #000000,  
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;;
 }
 
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
 
 @media (max-width: 1000px) {
+
 	/* LANDING PAGE */
 	#landingwilly {
-		max-width:100%!important;
+		max-width: 100% !important;
 	}
 
 	.hbdwilson {
-		font-size:4em;
-		max-width:100%;
+		font-size: 4em;
+		max-width: 100%;
 	}
 
 	.landingbuttons {
-		font-size:.95em;
+		font-size: .95em;
 	}
 
 	.landingtextcontainer,
 	.landingwillycontainer {
-		max-width:100%!important;
+		max-width: 100% !important;
 	}
 
 	/* SNS PAGE */
@@ -155,11 +227,14 @@ body {
 	}
 
 	.chibi1 {
-		position:relative;
-		margin:auto;
+		position: relative;
+		margin: auto;
 	}
 
 	.snswrapper {
-		margin-bottom:14em!important;
+		margin-bottom: 14em !important;
 	}
+
+	/* FIRST STEPS */
+
 }
