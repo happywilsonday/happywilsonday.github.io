@@ -43,6 +43,12 @@ body {
 	max-width: 8em;
 	text-align: center;
 	margin-bottom: 0.5em;
+	color:white;
+	text-shadow: 
+    -2px -2px 0 #457eaa,  
+    2px -2px 0 #457eaa,
+    -2px 2px 0 #457eaa,
+    5px 5px 0 #457eaa;
 }
 
 .landingtextcontainer {
@@ -50,18 +56,27 @@ body {
 }
 
 .landingbuttons {
-	font-family: "VT323";
+	font-family: "Raleway";
 	text-align: center;
 }
 
 .landingbuttons button {
-	background-color: #f5eb28;
+	background-color: #FFFFFF;
 	color: #457eaa;
 	font-size: 2em;
+	font-weight:600;
 	border-radius: 0.25em;
 	border: none;
-	box-shadow: #8cf0ff 0.25em 0.25em 0 0;
+	box-shadow: #0A2D55 0.25em 0.25em 0 0;
 	margin-bottom: 1em;
+}
+
+.landingbg {
+	background-image:url(assets/landing-bg.png);
+	background-repeat:repeat;
+	background-size:75em;
+	background-color: rgba(255,255,255,0.6);
+	background-blend-mode: lighten;
 }
 
 /*NAV BAR --------------------------------------------------------------------*/
@@ -188,7 +203,7 @@ body {
     -1px -1px 0 #000000,  
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
-    1px 1px 0 #000000;;
+    1px 1px 0 #000000;
 }
 
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
@@ -198,6 +213,11 @@ body {
 	/* LANDING PAGE */
 	#landingwilly {
 		max-width: 100% !important;
+		max-height:90%!important;
+	}
+
+	.landingwillycontainer {
+		max-height:90vh!important;
 	}
 
 	.hbdwilson {
@@ -206,7 +226,7 @@ body {
 	}
 
 	.landingbuttons {
-		font-size: .95em;
+		font-size: .75em;
 	}
 
 	.landingtextcontainer,
