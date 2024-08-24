@@ -206,6 +206,22 @@ body {
     1px 1px 0 #000000;
 }
 
+/* WORLDWIDE WILLY ---------------------------------------------------------- */
+
+.worldwide-header .tagline {
+	font-family: "Nunito";
+}
+
+.worldwide-container img{
+	max-width:100%;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+.worldwide-container .col {
+	margin:1em;
+}
+
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
 
 @media (max-width: 1000px) {
