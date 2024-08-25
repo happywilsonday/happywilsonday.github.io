@@ -43,12 +43,8 @@ body {
 	max-width: 8em;
 	text-align: center;
 	margin-bottom: 0.5em;
-	color:white;
-	text-shadow: 
-    -2px -2px 0 #457eaa,  
-    2px -2px 0 #457eaa,
-    -2px 2px 0 #457eaa,
-    5px 5px 0 #457eaa;
+	color: white;
+	text-shadow: -2px -2px 0 #457eaa, 2px -2px 0 #457eaa, -2px 2px 0 #457eaa, 5px 5px 0 #457eaa;
 }
 
 .landingtextcontainer {
@@ -61,21 +57,31 @@ body {
 }
 
 .landingbuttons button {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	color: #457eaa;
 	font-size: 2em;
-	font-weight:600;
+	font-weight: 600;
 	border-radius: 0.25em;
-	border: none;
-	box-shadow: #0A2D55 0.25em 0.25em 0 0;
+	border: 2px solid #457eaa;
+	box-shadow: #0a2d55 0.25em 0.25em 0 0;
+	margin-bottom: 1em;
+}
+.landingbuttons button:hover {
+	background-color: #f5eb28;
+	color: #457eaa;
+	font-size: 2em;
+	font-weight: 600;
+	border-radius: 0.25em;
+	border: 2px solid #457eaa;
+	box-shadow: #0a2d55 0.25em 0.25em 0 0;
 	margin-bottom: 1em;
 }
 
 .landingbg {
-	background-image:url(assets/landing-bg.png);
-	background-repeat:repeat;
-	background-size:75em;
-	background-color: rgba(255,255,255,0.6);
+	background-image: url(assets/landing-bg.png);
+	background-repeat: repeat;
+	background-size: 75em;
+	background-color: rgba(255, 255, 255, 0.6);
 	background-blend-mode: lighten;
 }
 
@@ -92,18 +98,18 @@ body {
 }
 
 .navbar a:hover {
-	color: #0A2D55;
+	color: #0a2d55;
 }
 
 .navbar-brand {
-	font-size: 1.5rem !important;
-	letter-spacing: 0.04rem;
+	font-size: 1.5em !important;
+	letter-spacing: 0.04em;
 	color: #457eaa;
 }
 
 .nav-link {
-	font-size: 1.25rem;
-	letter-spacing: 0.03rem;
+	font-size: 1.25em;
+	letter-spacing: 0.03em;
 	color: #457eaa;
 }
 
@@ -118,11 +124,11 @@ body {
 /* SNS PROJECTS PAGE--------------------------------------------------------- */
 
 .snswrapper a {
-	color: #457eaa
+	color: #457eaa;
 }
 
 .snswrapper a:hover {
-	color: #0A2D55;
+	color: #0a2d55;
 }
 
 .snsimgwrap img {
@@ -199,11 +205,45 @@ body {
 }
 
 .carousel-caption {
-	text-shadow: 
-    -1px -1px 0 #000000,  
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000;
+	text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(245,235,40,1)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(245,235,40,1)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*OWL CAROUSEL*/
+
+.owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	opacity: 1;
+	font-size: 30px !important;
+	z-index: 1;
+}
+
+.owl-nav .owl-prev {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	opacity: 1;
+	font-size: 30px !important;
+	z-index: 1;
+}
+
+.owl-carousel .owl-item img {
+	display: block;
+	margin: auto;
+	max-height: calc(100vh - 8.75rem);
+}
+
+.owl-carousel .owl-item p {
+	text-align: center;
 }
 
 /* WORLDWIDE WILLY ---------------------------------------------------------- */
@@ -212,28 +252,27 @@ body {
 	font-family: "Nunito";
 }
 
-.worldwide-container img{
-	max-width:100%;
-	margin-top:1em;
-	margin-bottom:1em;
+.worldwide-container img {
+	max-width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .worldwide-container .col {
-	margin:1em;
+	margin: 1em;
 }
 
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
 
 @media (max-width: 1000px) {
-
 	/* LANDING PAGE */
 	#landingwilly {
 		max-width: 100% !important;
-		max-height:90%!important;
+		max-height: 90% !important;
 	}
 
 	.landingwillycontainer {
-		max-height:90vh!important;
+		max-height: 90vh !important;
 	}
 
 	.hbdwilson {
@@ -242,7 +281,7 @@ body {
 	}
 
 	.landingbuttons {
-		font-size: .75em;
+		font-size: 0.75em;
 	}
 
 	.landingtextcontainer,
@@ -274,5 +313,4 @@ body {
 	}
 
 	/* FIRST STEPS */
-
 }
