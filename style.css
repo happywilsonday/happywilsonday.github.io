@@ -246,6 +246,11 @@ body {
 	text-align: center;
 }
 
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #f5eb28;
+}
+
 /* WORLDWIDE WILLY ---------------------------------------------------------- */
 
 .worldwide-header .tagline {
