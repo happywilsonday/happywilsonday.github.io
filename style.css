@@ -222,6 +222,51 @@ body {
 	margin:1em;
 }
 
+/* CREDITS ------------------------------------------------------------------ */
+
+#creditsimg {
+	max-width:100%;
+}
+
+.credits-container {
+	font-family:"Nunito";
+	max-width:50em!important;
+}
+
+.credits-container .row img {
+	width:7em;
+	border-radius:7em;
+}
+
+.credits-container p {
+	font-weight:800;
+}
+
+.credits-container h2 {
+	font-family: "VT323"
+}
+
+.credits-container .col-sm {
+	margin-bottom:3em!important;
+}
+
+.chibi2 {
+	max-width: 12em;
+	position: absolute;
+	left: 5em;
+}
+
+.chibi3 {
+	max-width:10em;
+	position:absolute;
+	right:5em;
+	margin-top:-20em;
+}
+
+.chibiholder {
+	text-align:center;
+}
+
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
 
 @media (max-width: 1000px) {
@@ -273,6 +318,14 @@ body {
 		margin-bottom: 14em !important;
 	}
 
-	/* FIRST STEPS */
+	/* CREDITS */
+
+	.chibi2, .chibi3 {
+		position:static;
+		margin:auto;
+		display:inline-block;
+		text-align:center;
+		margin-bottom:3em;
+	}
 
 }
