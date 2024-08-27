@@ -84,11 +84,11 @@ body {
 .navbar {
 	background-color: #f5eb28;
 	font-family: "VT323";
-	color: #457eaa;
+	color: #294C65;
 }
 
 .navbar a {
-	color: #457eaa;
+	color: #294C65;
 }
 
 .navbar a:hover {
@@ -118,7 +118,7 @@ body {
 /* SNS PROJECTS PAGE--------------------------------------------------------- */
 
 .snswrapper a {
-	color: #457eaa
+	color: #2F5774
 }
 
 .snswrapper a:hover {
