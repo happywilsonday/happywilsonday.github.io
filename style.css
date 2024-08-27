@@ -222,6 +222,18 @@ body {
 	margin:1em;
 }
 
+#chibi4 {
+	max-height:9em;
+	position:absolute;
+	left:7em;
+}
+
+#chibi5 {
+	max-height:7em;
+	position:absolute;
+	right:7em;
+}
+
 /* CREDITS ------------------------------------------------------------------ */
 
 #creditsimg {
@@ -316,6 +328,12 @@ body {
 
 	.snswrapper {
 		margin-bottom: 14em !important;
+	}
+
+	/* WILLY WORLDWIDE */
+
+	#chibi4, #chibi5 {
+		position:static;
 	}
 
 	/* CREDITS */
