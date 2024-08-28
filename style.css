@@ -123,6 +123,10 @@ body {
 
 /* SNS PROJECTS PAGE--------------------------------------------------------- */
 
+.snsbg {
+	background-color: #a5dce7;
+}
+
 .snswrapper a {
 	color: #457eaa;
 }
