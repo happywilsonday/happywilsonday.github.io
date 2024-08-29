@@ -54,6 +54,7 @@ body {
 .landingbuttons {
 	font-family: "Raleway";
 	text-align: center;
+	max-width: fit-content;
 }
 
 .landingbuttons button {
@@ -186,6 +187,8 @@ body {
 	text-align: center;
 	color: #ffffff;
 	font-family: "Nunito";
+	max-width: 80%;
+	margin: auto;
 }
 
 /*OWL CAROUSEL*/
