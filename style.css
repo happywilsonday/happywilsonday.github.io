@@ -370,6 +370,12 @@ header {
 
 @media (max-width: 1000px) {
 
+	header {
+		max-width:90%;
+		padding-top:3em;
+		padding-bottom:3em;
+	}
+
 	/* LANDING PAGE */
 	#landingwilly {
 		max-width: 100% !important;
