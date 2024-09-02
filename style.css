@@ -12,6 +12,12 @@ body {
 	flex-flow: column;
 }
 
+header {
+	max-width:75%;
+	padding-top:5em;
+	padding-bottom:5em;
+}
+
 /* LANDING PAGE ------------------------------------------------------------- */
 
 #landingwilly {
@@ -194,12 +200,18 @@ body {
 	content: "";
 } */
 
+#first-steps-text {
+	width:100%;
+}
+
 .first-steps-title {
 	text-align: center;
 	color: #ffffff;
 	font-family: "Chakra Petch";
 	font-weight: 600;
 	font-size: 4em;
+	max-width:80%;
+	margin:auto;
 }
 
 .first-steps-bodytext {
@@ -221,8 +233,10 @@ body {
 	top: 50%;
 	right: 10px;
 	opacity: 1;
-	font-size: 30px !important;
+	font-size: 50px !important;
 	z-index: 1;
+	height:1.6em;
+	width:1em;
 }
 
 .owl-nav .owl-prev {
@@ -230,8 +244,15 @@ body {
 	top: 50%;
 	left: 10px;
 	opacity: 1;
-	font-size: 30px !important;
+	font-size: 50px !important;
 	z-index: 1;
+	height:1.6em;
+	width:1em;
+}
+
+.owl-nav span {
+	position:relative;
+	bottom:.1em;
 }
 
 .owl-carousel .owl-item {
@@ -247,6 +268,7 @@ body {
 
 .owl-carousel .owl-item p {
 	text-align: center;
+	font-family:"Nunito";
 }
 
 .owl-carousel .owl-stage {
