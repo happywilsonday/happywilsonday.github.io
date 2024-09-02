@@ -206,6 +206,51 @@ body {
     1px 1px 0 #000000;
 }
 
+/*OWL CAROUSEL*/
+
+.owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	opacity: 1;
+	font-size: 30px !important;
+	z-index: 1;
+}
+
+.owl-nav .owl-prev {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	opacity: 1;
+	font-size: 30px !important;
+	z-index: 1;
+}
+
+.owl-carousel .owl-item {
+	vertical-align: middle;
+}
+
+.owl-carousel .owl-item img {
+	display: block;
+	margin: auto;
+	max-height: calc(100vh - 10.25rem);
+	max-width: 100vw;
+}
+
+.owl-carousel .owl-item p {
+	text-align: center;
+}
+
+.owl-carousel .owl-stage {
+	display: flex;
+	align-items: center;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #f5eb28;
+}
+
 /* WORLDWIDE WILLY ---------------------------------------------------------- */
 
 .tagline {
