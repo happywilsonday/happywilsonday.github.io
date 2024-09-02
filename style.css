@@ -208,8 +208,10 @@ body {
 
 /* WORLDWIDE WILLY ---------------------------------------------------------- */
 
-.worldwide-header .tagline {
+.tagline {
 	font-family: "Nunito";
+	max-width:50em;
+	margin:auto;
 }
 
 .worldwide-container img{
