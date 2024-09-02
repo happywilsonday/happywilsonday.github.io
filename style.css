@@ -226,6 +226,16 @@ header {
 	background-color: #061d38!important;
 }
 
+.first-steps-caption {
+	color:#FFFFFF;
+}
+
+.first-steps-credit {
+	font-weight:600;
+	font-family: 'Chakra Petch';
+	color:#f5eb28
+}
+
 /*OWL CAROUSEL*/
 
 .owl-nav .owl-next {
@@ -406,6 +416,12 @@ header {
 
 	.snswrapper {
 		margin-bottom: 14em !important;
+	}
+
+	/* FIRST STEPS */
+
+	.first-steps-title {
+		font-size:3em;
 	}
 
 	/* WILLY WORLDWIDE */
