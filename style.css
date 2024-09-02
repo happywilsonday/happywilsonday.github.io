@@ -86,11 +86,9 @@ header {
 }
 
 .landingbg {
-	background-image:url(assets/landing-bg-blue-check.png);
+	background-image:url(assets/landing-bg-blue-check-fade.png);
 	background-repeat:repeat;
 	background-size:75em;
-	background-color: rgba(255,255,255,0.6)!important;
-	background-blend-mode: lighten;
 }
 
 /*NAV BAR --------------------------------------------------------------------*/
