@@ -45,8 +45,8 @@ header {
 .hbdwilson {
 	font-family: "Chakra Petch";
 	font-weight: 600;
-	font-size: 5em;
-	max-width: 9em;
+	font-size: 4.5em;
+	max-width: 8.75em;
 	text-align: center;
 	margin-bottom: 0.25em;
 	color:white;
@@ -67,10 +67,6 @@ header {
 	padding:1em;
 	margin-bottom:2em;
 	border-radius:1em;
-}
-
-.landingtextcontainer {
-	max-width: 50%;
 }
 
 .landingbuttons {
@@ -143,9 +139,13 @@ header {
 	color: #0A2D55;
 }
 
+.snsimgwrap {
+	width:20em!important;
+}
+
 .snsimgwrap img {
 	max-width: 20em;
-	max-height: 18em;
+	max-height:18em;
 	margin-bottom: 3em;
 }
 
