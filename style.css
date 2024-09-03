@@ -181,14 +181,20 @@ body {
 	font-family: "Chakra Petch";
 	font-weight: 600;
 	font-size: 4em;
+	text-align: center;
+	width: 90%;
+	margin: auto;
 }
 
 .first-steps-bodytext {
 	text-align: center;
 	color: #ffffff;
 	font-family: "Nunito";
-	max-width: 80%;
+	width: 80%;
 	margin: auto;
+}
+.first-steps-title-slide {
+	width: 100vw;
 }
 
 /*OWL CAROUSEL*/
@@ -304,4 +310,7 @@ body {
 	}
 
 	/* FIRST STEPS */
+	.owl-carousel .owl-item img {
+		max-width: 100vw;
+	}
 }
