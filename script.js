@@ -2,9 +2,9 @@
 //     interval:0
 // })
 
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
+$(document).on("click", '[data-toggle="lightbox"]', function (event) {
+	event.preventDefault();
+	$(this).ekkoLightbox();
 });
 
 $(document).ready(function () {
@@ -13,9 +13,9 @@ $(document).ready(function () {
 	owl.owlCarousel({
 		items: 1,
 		loop: true,
-		margin: 10,
 		nav: true,
 		center: true,
+		margin: 2,
 	});
 
 	/*keyboard navigation*/

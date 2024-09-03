@@ -7,15 +7,15 @@ html {
 body {
 	min-height: 100vh;
 	height: 100%;
-	background-color: #f6fdfd!important;
+	background-color: #f6fdfd !important;
 	display: flex;
 	flex-flow: column;
 }
 
 header {
-	max-width:75%;
-	padding-top:5em;
-	padding-bottom:5em;
+	max-width: 75%;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
 /* LANDING PAGE ------------------------------------------------------------- */
@@ -49,24 +49,20 @@ header {
 	max-width: 8.75em;
 	text-align: center;
 	margin-bottom: 0.25em;
-	color:white;
-	text-shadow: 
-    -2px -2px 0 #0A2D55,  
-    2px -2px 0 #0A2D55,
-    -2px 2px 0 #0A2D55,
-    5px 5px 0 #0A2D55;
+	color: white;
+	text-shadow: -2px -2px 0 #0a2d55, 2px -2px 0 #0a2d55, -2px 2px 0 #0a2d55, 5px 5px 0 #0a2d55;
 }
 
 .landingtagline {
-	font-family:"VT323";
-	color:#061d38;
-	max-width:35em;
-	text-align:center;
-	margin:auto;
-	background-color:rgba(255, 255, 245, 0.9);
-	padding:1em;
-	margin-bottom:2em;
-	border-radius:1em;
+	font-family: "VT323";
+	color: #061d38;
+	max-width: 35em;
+	text-align: center;
+	margin: auto;
+	background-color: rgba(255, 255, 245, 0.9);
+	padding: 1em;
+	margin-bottom: 2em;
+	border-radius: 1em;
 }
 
 .landingbuttons {
@@ -75,20 +71,20 @@ header {
 }
 
 .landingbuttons button {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	color: #457eaa;
 	font-size: 2em;
-	font-weight:600;
+	font-weight: 600;
 	border-radius: 0.25em;
 	border: 2px solid #457eaa;
-	box-shadow: #0A2D55 0.25em 0.25em 0 0;
+	box-shadow: #0a2d55 0.25em 0.25em 0 0;
 	margin-bottom: 1em;
 }
 
 .landingbg {
-	background-image:url(assets/landing-bg-blue-check-fade.png);
-	background-repeat:repeat;
-	background-size:75em;
+	background-image: url(assets/landing-bg-blue-check-fade.png);
+	background-repeat: repeat;
+	background-size: 75em;
 }
 
 /*NAV BAR --------------------------------------------------------------------*/
@@ -96,15 +92,15 @@ header {
 .navbar {
 	background-color: #f5eb28;
 	font-family: "VT323";
-	color: #294C65;
+	color: #294c65;
 }
 
 .navbar a {
-	color: #294C65;
+	color: #294c65;
 }
 
 .navbar a:hover {
-	color: #0A2D55;
+	color: #0a2d55;
 }
 
 .navbar-brand {
@@ -130,20 +126,20 @@ header {
 /* SNS PROJECTS PAGE--------------------------------------------------------- */
 
 .snswrapper a {
-	color: #2F5774
+	color: #2f5774;
 }
 
 .snswrapper a:hover {
-	color: #0A2D55;
+	color: #0a2d55;
 }
 
 .snsimgwrap {
-	width:20em!important;
+	width: 20em !important;
 }
 
 .snsimgwrap img {
 	max-width: 20em;
-	max-height:18em;
+	max-height: 18em;
 	margin-bottom: 3em;
 }
 
@@ -210,8 +206,8 @@ header {
 	content: "";
 } */
 
-#first-steps-text {
-	width:100%;
+.first-steps-text {
+	width: 100vw;
 }
 
 .first-steps-title {
@@ -220,30 +216,30 @@ header {
 	font-family: "Chakra Petch";
 	font-weight: 600;
 	font-size: 4em;
-	max-width:80%;
-	margin:auto;
+	width: 80%;
+	margin: auto;
 }
 
 .first-steps-bodytext {
 	text-align: center;
 	color: #ffffff;
 	font-family: "Nunito";
-	max-width: 80%;
+	width: 80%;
 	margin: auto;
 }
 
 .first-steps-body {
-	background-color: #061d38!important;
+	background-color: #061d38 !important;
 }
 
 .first-steps-caption {
-	color:#FFFFFF;
+	color: #ffffff;
 }
 
 .first-steps-credit {
-	font-weight:600;
-	font-family: 'Chakra Petch';
-	color:#f5eb28
+	font-weight: 600;
+	font-family: "Chakra Petch";
+	color: #f5eb28;
 }
 
 /*OWL CAROUSEL*/
@@ -255,8 +251,8 @@ header {
 	opacity: 1;
 	font-size: 50px !important;
 	z-index: 1;
-	height:1.6em;
-	width:1em;
+	height: 1.6em;
+	width: 1em;
 }
 
 .owl-nav .owl-prev {
@@ -266,13 +262,13 @@ header {
 	opacity: 1;
 	font-size: 50px !important;
 	z-index: 1;
-	height:1.6em;
-	width:1em;
+	height: 1.6em;
+	width: 1em;
 }
 
 .owl-nav span {
-	position:relative;
-	bottom:.1em;
+	position: relative;
+	bottom: 0.1em;
 }
 
 .owl-carousel .owl-item {
@@ -288,7 +284,7 @@ header {
 
 .owl-carousel .owl-item p {
 	text-align: center;
-	font-family:"Nunito";
+	font-family: "Nunito";
 }
 
 .owl-carousel .owl-stage {
@@ -305,66 +301,66 @@ header {
 
 .tagline {
 	font-family: "Nunito";
-	max-width:50em;
-	margin:auto;
+	max-width: 50em;
+	margin: auto;
 }
 
-.worldwide-container img{
-	max-width:100%;
-	margin-top:1em;
-	margin-bottom:1em;
+.worldwide-container img {
+	max-width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .worldwide-container .col {
-	margin:1em;
+	margin: 1em;
 }
 
 #chibi4 {
-	max-height:9em;
-	position:absolute;
-	left:4em;
+	max-height: 9em;
+	position: absolute;
+	left: 4em;
 }
 
 #chibi5 {
-	max-height:7em;
-	position:absolute;
-	right:4em;
+	max-height: 7em;
+	position: absolute;
+	right: 4em;
 }
 
 /* CREDITS ------------------------------------------------------------------ */
 
 #creditsimg {
-	max-width:100%;
+	max-width: 100%;
 }
 
 .credits-container {
-	font-family:"Nunito";
-	max-width:50em!important;
+	font-family: "Nunito";
+	max-width: 50em !important;
 }
 
 .credits-container a {
-	color:#0A2D55;
+	color: #0a2d55;
 }
 
 .credits-container a:hover {
-	color:#061d38;
+	color: #061d38;
 }
 
 .credits-container .row img {
-	width:7em;
-	border-radius:7em;
+	width: 7em;
+	border-radius: 7em;
 }
 
 .credits-container p {
-	font-weight:800;
+	font-weight: 800;
 }
 
 .credits-container h2 {
-	font-family: "VT323"
+	font-family: "VT323";
 }
 
 .credits-container .col-sm {
-	margin-bottom:3em!important;
+	margin-bottom: 3em !important;
 }
 
 .chibi2 {
@@ -374,34 +370,33 @@ header {
 }
 
 .chibi3 {
-	max-width:10em;
-	position:absolute;
-	right:5em;
-	margin-top:-20em;
+	max-width: 10em;
+	position: absolute;
+	right: 5em;
+	margin-top: -20em;
 }
 
 .chibiholder {
-	text-align:center;
+	text-align: center;
 }
 
 /* MOBILE OPTIMIZATION ------------------------------------------------------ */
 
 @media (max-width: 1000px) {
-
 	header {
-		max-width:90%;
-		padding-top:3em;
-		padding-bottom:3em;
+		max-width: 90%;
+		padding-top: 3em;
+		padding-bottom: 3em;
 	}
 
 	/* LANDING PAGE */
 	#landingwilly {
 		max-width: 100% !important;
-		max-height:90%!important;
+		max-height: 90% !important;
 	}
 
 	.landingwillycontainer {
-		max-height:90vh!important;
+		max-height: 90vh !important;
 	}
 
 	.hbdwilson {
@@ -410,8 +405,8 @@ header {
 	}
 
 	.landingbuttons {
-		font-size: .75em;
-		margin-bottom:5em!important;
+		font-size: 0.75em;
+		margin-bottom: 5em !important;
 	}
 
 	.landingtextcontainer,
@@ -445,23 +440,24 @@ header {
 	/* FIRST STEPS */
 
 	.first-steps-title {
-		font-size:3em;
+		font-size: 3em;
 	}
 
 	/* WILLY WORLDWIDE */
 
-	#chibi4, #chibi5 {
-		position:static;
+	#chibi4,
+	#chibi5 {
+		position: static;
 	}
 
 	/* CREDITS */
 
-	.chibi2, .chibi3 {
-		position:static;
-		margin:auto;
-		display:inline-block;
-		text-align:center;
-		margin-bottom:3em;
+	.chibi2,
+	.chibi3 {
+		position: static;
+		margin: auto;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 3em;
 	}
-
 }
