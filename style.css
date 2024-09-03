@@ -342,6 +342,14 @@ header {
 	max-width:50em!important;
 }
 
+.credits-container a {
+	color:#0A2D55;
+}
+
+.credits-container a:hover {
+	color:#061d38;
+}
+
 .credits-container .row img {
 	width:7em;
 	border-radius:7em;
