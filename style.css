@@ -331,6 +331,7 @@ header {
 
 #creditsimg {
 	max-width: 100%;
+	border-bottom:.5em dotted #f5eb28
 }
 
 .credits-container {
