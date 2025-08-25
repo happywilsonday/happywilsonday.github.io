@@ -27,21 +27,6 @@
 
 <body class="landing-bg">
     <main class="landing-wrapper px-0 container-fluid">
-        <nav class="navbar navbar-expand-lg navbarfixedheight">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Happy Wilson Day 2025</a>
-                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <a class="nav-link" href="credits.html">Credits</a>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <div class="row m-auto gx-0 justify-content-center landing-header-wrapper">
             <div class="col-auto landing-willy-container mx-0 gx-0 px-0">
                 <img id="landing-willy" src="assets/landingwilly-shadow.png" alt="A half-body illustration of Wilson.">
@@ -85,26 +70,132 @@
         <div class="col-lg">
             <h2>Social Media Projects</h2>
             <div class="row justify-content-center mt-4 mb-5">
-                <a href="" class="col-sm-3 mx-2 sns-widget">
+                <button class="btn btn-light col-auto mx-2 sns-widget" data-toggle="modal" data-target="#magmaBoard">
                     <img src="https://picsum.photos/100">
                     <h3>Magma Board</h3>
-                </a>
-                <a href="" class="col-sm-3 mx-2 sns-widget">
+                </button>
+                <button class="btn btn-light col-auto mx-2 sns-widget" data-toggle="modal" data-target="#yuGotMail">
                     <img src="https://picsum.photos/100">
                     <h3>#YuGotMail2025</h3>
-                </a>
-                <a href="" class="col-sm-3 mx-2 sns-widget">
+                </button>
+                <button class="btn btn-light col-auto mx-2 sns-widget" data-toggle="modal" data-target="#iconDecotter">
                     <img src="https://picsum.photos/100">
                     <h3>IconDecotter</h3>
-                </a>
-                <a href="" class="col-sm-3 mx-2 sns-widget">
+                </button>
+                <button class="btn btn-light col-auto mx-2 sns-widget" data-toggle="modal" data-target="#fanAssets">
                     <img src="https://picsum.photos/100">
                     <h3>Fan Assets</h3>
-                </a>
-                <a href="" class="col-sm-3 mx-2 sns-widget">
+                </button>
+                <button class="btn btn-light col-auto mx-2 sns-widget" data-toggle="modal" data-target="#clipComp">
                     <img src="https://picsum.photos/100">
                     <h3>Clip Compilation</h3>
-                </a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SNS Project Modals -->
+    <div class="modal fade" id="magmaBoard" tabindex="-1" role="dialog" aria-labelledby="magmaBoard" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="magmaBoard">Magma Board</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <img src="https://picsum.photos/235/150">
+                <div class="modal-body">
+                    The Magma Board is an open art board for wilsoneers to draw and write messages on! This board
+                    contains drawings and messages to celebrate our oshi's birthday.
+                </div>
+                <div class="modal-footer">
+                    <a href="https://magma.com/d/ZfdVxiBFoo" type="button" class="btn btn-primary">Visit Magma Board</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="yuGotMail" tabindex="-1" role="dialog" aria-labelledby="yuGotMail" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="yuGotMail">Birthday Messages</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <img src="assets/bday_message_template_wilsoneer.png">
+                <div class="modal-body">
+                    The lovely <a href="https://x.com/KhayKyun">@KhayKyun</a> created a beautiful message template for wilsoneers to send their messages. 
+                    Feel free to use the template to write your own message and share it on the <a href="https://x.com/hashtag/YuGotMail2025">#YuGotMail2025</a> hashtag!
+                </div>
+                <div class="modal-footer row">
+                    <a href="https://drive.google.com/drive/folders/1k8EW8iNjuHu3Y3-HCntwkwQZCKe5ySTq?usp=sharing" type="button" class="btn btn-primary col-auto">Template Google Drive</a>
+                    <a href="https://x.com/hashtag/YuGotMail2025" type="button" class="btn btn-primary col-auto">View Messages (X/Twitter)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="iconDecotter" tabindex="-1" role="dialog" aria-labelledby="iconDecotter" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="iconDecotter">IconDecotter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <img src="assets/icondecotter.PNG">
+                <div class="modal-body">
+                    The wonderful <a href="https://x.com/CukiMilka">@CukiMilka</a> created an IconDecotter for wilsoneers to decorate their profiles with! 
+                    Use the link below to add the decoration to your X/Twitter avatar.
+                </div>
+                <div class="modal-footer">
+                    <a href="https://icondecotter.jp/detail.php?id=104967" type="button" class="btn btn-primary">IconDecotter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="fanAssets" tabindex="-1" role="dialog" aria-labelledby="fanAssets" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fanAssets">Fan Assets</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <img src="https://picsum.photos/235/150">
+                <div class="modal-body">
+                    @user, @user, and @user made some lovely fan emotes and assets for wilsoneers or Wilson to be able to use to celebrate his birthday!
+                    Feel free to use these in fan servers, as decorations for pape photos, or wherever else they might be of use.
+                </div>
+                <div class="modal-footer">
+                    <a href="" type="button" class="btn btn-primary">link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="clipComp" tabindex="-1" role="dialog" aria-labelledby="clipComp" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="clipComp">Clip Compilation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <img src="https://picsum.photos/235/150">
+                <div class="modal-body">
+                    A compilation of some of our favorite Wilson moments in the past year! Compiled by @user, @user, and @user.
+                </div>
+                <div class="modal-footer">
+                    <a href="" type="button" class="btn btn-primary">link</a>
+                </div>
             </div>
         </div>
     </div>

@@ -33,6 +33,7 @@ h2 {
 }
 
 .landing-wrapper {
+	padding-top:3em;
 	width: 100%;
 	background-color: white;
 	background-image: linear-gradient(to bottom, transparent, white), url("assets/JP_Pattern_edited.png");
@@ -90,6 +91,8 @@ h2 {
 
 .sns-widget {
 	margin-bottom:1em;
+	width:10em!important;
+	padding-top:1em!important;
 }
 
 .sns-widget img {
