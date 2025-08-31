@@ -461,33 +461,6 @@ h3 {
 
 /*OWL CAROUSEL*/
 
-.owl-nav .owl-next {
-	position: absolute;
-	top: 50%;
-	right: 10px;
-	opacity: 1;
-	font-size: 50px !important;
-	z-index: 1;
-	height: 1.6em;
-	width: 1em;
-}
-
-.owl-nav .owl-prev {
-	position: absolute;
-	top: 50%;
-	left: 10px;
-	opacity: 1;
-	font-size: 50px !important;
-	z-index: 1;
-	height: 1.6em;
-	width: 1em;
-}
-
-.owl-nav span {
-	position: relative;
-	bottom: 0.1em;
-}
-
 .owl-carousel .owl-item {
 	vertical-align: middle;
 }
