@@ -1,16 +1,16 @@
 /* UNIVERSAL ---------------------------------------------------------------- */
 
 html {
-	min-height: 100%!important;
+	min-height: 100% !important;
 }
 
 body {
-	min-height: 100%!important;
+	min-height: 100% !important;
 	background-color: white !important;
 	display: flex;
 	flex-flow: column;
-	background: linear-gradient(to bottom,transparent 0%, transparent 70%, rgb(255, 249, 197) 100%);
-	background-size:cover;
+	background: linear-gradient(to bottom, transparent 0%, transparent 70%, rgb(255, 249, 197) 100%);
+	background-size: cover;
 }
 
 header {
@@ -21,26 +21,26 @@ header {
 
 h2 > a,
 h2 {
-	font-family: "Figtree"!important;
-	font-weight:700!important;
-	color:#061d38!important;
-	font-size:2rem!important;
+	font-family: "Figtree" !important;
+	font-weight: 700 !important;
+	color: #061d38 !important;
+	font-size: 2rem !important;
 }
 
 h3 {
-	font-family: "Figtree"!important;
-	font-weight:700!important;
+	font-family: "Figtree" !important;
+	font-weight: 700 !important;
 }
 
 /* LANDING PAGE ------------------------------------------------------------- */
 
 #landing-willy {
-	opacity:0;
-	max-height:30em;
+	opacity: 0;
+	max-height: 30em;
 }
 
 .landing-wrapper {
-	padding-top:3em;
+	padding-top: 3em;
 	width: 100%;
 	background-color: white;
 	background-image: linear-gradient(to bottom, transparent, white), url("assets/JP_Pattern_edited.png");
@@ -49,7 +49,7 @@ h3 {
 }
 
 .landing-header {
-	margin-top:5em;
+	margin-top: 5em;
 	order: 1;
 }
 
@@ -76,14 +76,14 @@ h3 {
 
 .landing-tagline {
 	font-family: "Figtree";
-	font-weight:600;
+	font-weight: 600;
 	color: #061d38;
-	max-width:50rem;
+	max-width: 50rem;
 	text-align: left;
 	margin: auto;
-	background-color:rgba(255,255,255,0.5);
-	border-radius:1em;
-	padding:2em;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 1em;
+	padding: 2em;
 }
 
 .landing-bg {
@@ -91,32 +91,32 @@ h3 {
 }
 
 .gallery-widget img {
-	max-width:10em;
-	margin:1px;
-	border-radius:1em;
+	max-width: 10em;
+	margin: 1px;
+	border-radius: 1em;
 }
 
 .sns-row {
-	text-align:center;
+	text-align: center;
 }
 
 .sns-widget {
-	margin-bottom:1em;
-	width:10em!important;
-	padding-top:1em!important;
-	background-color:rgba(216, 230, 248, 0.5)!important;
-	border-radius:1em!important;
+	margin-bottom: 1em;
+	width: 10em !important;
+	padding-top: 1em !important;
+	background-color: rgba(216, 230, 248, 0.5) !important;
+	border-radius: 1em !important;
 }
 
 .sns-widget img {
-	border-radius:5em;
-	margin-bottom:1em;
+	border-radius: 5em;
+	margin-bottom: 1em;
 }
 
 .sns-widget h3 {
-	font-family: "VT323"!important;
-	color:#061d38!important;
-	font-size:1rem!important;
+	font-family: "VT323" !important;
+	color: #061d38 !important;
+	font-size: 1rem !important;
 }
 
 /*NAV BAR --------------------------------------------------------------------*/
@@ -124,7 +124,7 @@ h3 {
 .navbar {
 	font-family: "VT323";
 	color: #294c65;
-	background-color:rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar a {
@@ -153,6 +153,201 @@ h3 {
 
 .custom-toggler .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(69,126,170, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*Timeline*/
+.timeline {
+	position: relative;
+	background: inherit;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 5rem;
+	margin: 0 auto 1rem auto;
+	overflow: hidden;
+}
+.timeline:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -2px;
+	border-right: 2px dashed #4b546f;
+	height: 100%;
+	display: block;
+}
+
+.timeline-row {
+	padding-left: 50%;
+	position: relative;
+	margin-bottom: 30px;
+}
+.timeline-row .timeline-time {
+	position: absolute;
+	right: 50%;
+	top: 15px;
+	text-align: right;
+	margin-right: 20px;
+	color: #bcd0f7;
+	font-size: 1.5rem;
+}
+.timeline-row .timeline-time small {
+	display: block;
+	font-size: 0.8rem;
+}
+.timeline-row .timeline-content {
+	position: relative;
+	padding: 20px 30px;
+	background: yellow;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.timeline-row .timeline-content:after {
+	content: "";
+	position: absolute;
+	top: 20px;
+	height: 16px;
+	width: 16px;
+	background: yellow;
+}
+.timeline-row .timeline-content:before {
+	content: "";
+	position: absolute;
+	top: 20px;
+	right: -49px;
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	z-index: 10;
+	background: #272e48;
+	border: 2px dashed #4b546f;
+}
+.timeline-row .timeline-content h4 {
+	margin: 0 0 20px 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	line-height: 150%;
+}
+.timeline-row .timeline-content p {
+	margin-bottom: 30px;
+	line-height: 150%;
+}
+.timeline-row .timeline-content i {
+	font-size: 1.2rem;
+	line-height: 100%;
+	padding: 15px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	background: #272e48;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.timeline-row .timeline-content img {
+	max-width: 100%;
+}
+.timeline-row .timeline-content .thumbs {
+	margin-bottom: 20px;
+	display: flex;
+}
+.timeline-row .timeline-content .thumbs img {
+	margin: 5px;
+	max-width: 60px;
+}
+.timeline-row .timeline-content .badge {
+	color: #ffffff;
+	background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+}
+.timeline-row:nth-child(even) .timeline-content {
+	margin-left: 40px;
+	text-align: left;
+}
+.timeline-row:nth-child(even) .timeline-content:after {
+	left: -8px;
+	right: initial;
+	border-bottom: 0;
+	border-left: 0;
+	transform: rotate(-135deg);
+}
+.timeline-row:nth-child(even) .timeline-content:before {
+	left: -52px;
+	right: initial;
+}
+.timeline-row:nth-child(odd) {
+	padding-left: 0;
+	padding-right: 50%;
+}
+.timeline-row:nth-child(odd) .timeline-time {
+	right: auto;
+	left: 50%;
+	text-align: left;
+	margin-right: 0;
+	margin-left: 20px;
+}
+.timeline-row:nth-child(odd) .timeline-content {
+	margin-right: 40px;
+}
+.timeline-row:nth-child(odd) .timeline-content:after {
+	right: -8px;
+	border-left: 0;
+	border-bottom: 0;
+	transform: rotate(45deg);
+}
+
+@media (max-width: 992px) {
+	.timeline {
+		padding: 15px;
+	}
+	.timeline:after {
+		border: 0;
+	}
+	.timeline .timeline-row:nth-child(odd) {
+		padding: 0;
+	}
+	.timeline .timeline-row:nth-child(odd) .timeline-time {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 0 0 10px 0;
+	}
+	.timeline .timeline-row:nth-child(odd) .timeline-content {
+		margin: 0;
+	}
+	.timeline .timeline-row:nth-child(odd) .timeline-content:before {
+		display: none;
+	}
+	.timeline .timeline-row:nth-child(odd) .timeline-content:after {
+		display: none;
+	}
+	.timeline .timeline-row:nth-child(even) {
+		padding: 0;
+	}
+	.timeline .timeline-row:nth-child(even) .timeline-time {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 0 0 10px 0;
+		text-align: left;
+	}
+	.timeline .timeline-row:nth-child(even) .timeline-content {
+		margin: 0;
+	}
+	.timeline .timeline-row:nth-child(even) .timeline-content:before {
+		display: none;
+	}
+	.timeline .timeline-row:nth-child(even) .timeline-content:after {
+		display: none;
+	}
 }
 
 /* SNS PROJECTS PAGE--------------------------------------------------------- */
@@ -423,34 +618,34 @@ h3 {
 
 	/* LANDING PAGE */
 	.landing-willy-container {
-		order:1;
-		max-width:100vw;
+		order: 1;
+		max-width: 100vw;
 	}
 
 	.landing-header {
-		order:2;
-		max-width:100%!important;
-		margin:2em;
+		order: 2;
+		max-width: 100% !important;
+		margin: 2em;
 	}
 
 	.landing-title {
 		font-size: 3em;
 		max-width: 100%;
-		text-align:center;
+		text-align: center;
 	}
 
 	.landing-tagline {
-		padding-left:2em;
-		padding-right:2em;
-		padding-top:1em;
+		padding-left: 2em;
+		padding-right: 2em;
+		padding-top: 1em;
 	}
 
 	.gallery-widget {
-		margin-bottom:2em;
+		margin-bottom: 2em;
 	}
 
 	#landing-willy {
-		max-width:100vw;
+		max-width: 100vw;
 	}
 
 	/* SNS PAGE */
