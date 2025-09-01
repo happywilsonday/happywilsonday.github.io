@@ -91,9 +91,11 @@ h3 {
 }
 
 .gallery-widget img {
-	max-width: 10em;
+	width: 15em;
+	height:9em;
 	margin: 1px;
 	border-radius: 1em;
+	object-fit:cover;
 }
 
 .sns-row {
