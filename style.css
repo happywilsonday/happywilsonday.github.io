@@ -59,7 +59,7 @@ h3 {
 
 .landing-willy-container {
 	order: 2;
-	background-image: linear-gradient(to bottom, transparent, white), url("assets/landingwilly.webp");
+	background-image: url("assets/landingwilly.webp");
 	background-size: cover;
 }
 
@@ -145,10 +145,6 @@ h3 {
 	background-color:rgba(255, 255, 255, 0.75);
 }
 
-.navbar-brand {
-	font-family: "Fugaz One", sans-serif;
-}
-
 .navbar a {
 	color: #294c65;
 }
@@ -158,6 +154,7 @@ h3 {
 }
 
 .navbar-brand {
+	font-family: "Fugaz One", sans-serif;
 	font-size: 1.5rem !important;
 	letter-spacing: 0.04rem;
 	color: #457eaa;
