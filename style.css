@@ -93,7 +93,7 @@ h3 {
 .gallery-widget img {
 	width: 15em;
 	height:9em;
-	margin: 1px;
+	margin: 3px;
 	border-radius: 1em;
 	object-fit:cover;
 }
