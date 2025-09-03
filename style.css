@@ -243,7 +243,7 @@ footer a {
 
 .timeline-row .timeline-content {
 	position: relative;
-	padding: 20px 30px;
+	padding: 30px 20px;
 	background: white;
 	border: solid 2px #0a2d55;
 	-webkit-border-radius: 4px;
@@ -290,7 +290,7 @@ footer a {
 }
 
 .timeline-row .timeline-content p {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	line-height: 150%;
 }
 
