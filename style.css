@@ -32,6 +32,14 @@ h3 {
 	font-weight: 700 !important;
 }
 
+footer {
+	color:#0a2d55;
+}
+
+footer a {
+	color:#457eaa;
+}
+
 /* LANDING PAGE ------------------------------------------------------------- */
 
 #landing-willy {
