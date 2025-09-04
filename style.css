@@ -11,6 +11,7 @@ body {
 	flex-flow: column;
 	background: linear-gradient(to bottom, transparent 0%, transparent 70%, rgb(255, 249, 197) 100%);
 	background-size: cover;
+	font-family: 'Figtree', sans-serif !important;
 }
 
 header {
@@ -19,7 +20,7 @@ header {
 	padding-bottom: 5em;
 }
 
-h2 > a,
+h2>a,
 h2 {
 	font-family: "Figtree" !important;
 	font-weight: 700 !important;
@@ -439,7 +440,9 @@ footer a {
 
 .owl-carousel .owl-item p {
 	text-align: center;
-	font-family: "Nunito";
+	font-family: "Figtree", sans-serif;
+	margin-top: 1em;
+	font-weight: 700;
 }
 
 .owl-carousel .owl-stage {
@@ -449,7 +452,37 @@ footer a {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-	background: #f5eb28;
+	background: #061d38;
+}
+
+.owl-nav .owl-next {
+	position: absolute;
+	top: 40%;
+	right: 10%;
+	opacity: 1;
+	font-size: 50px !important;
+	z-index: 1;
+	height: 1.6em;
+	width: 1em;
+	color: #061d38 !important;
+
+}
+
+.owl-nav .owl-prev {
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	opacity: 1;
+	font-size: 50px !important;
+	z-index: 1;
+	height: 1.6em;
+	width: 1em;
+	color: #061d38 !important;
+}
+
+.owl-nav span {
+	position: relative;
+	bottom: 0.1em;
 }
 
 /* PAPE PHOTOS ---------------------------------------------------------- */
@@ -628,6 +661,14 @@ footer a {
 
 	.first-steps-title {
 		font-size: 3em;
+	}
+
+	.owl-next {
+		right:1%!important;
+	}
+
+	.owl-prev {
+		left:1%!important;
 	}
 
 	/* WILLY WORLDWIDE */

@@ -5,6 +5,7 @@ $(document).on("click", '[data-toggle="lightbox"]', function (event) {
 
 $(document).ready(function () {
 	randomPhoto();
+	randomFanartPhoto();
 });
 
 $(function () {
@@ -79,11 +80,22 @@ const pape_photos = [
 	"assets/pape_photos/zed pwease_BaNaHills.webp",
 ];
 
+const fanart_photos = ["assets/yearwithwilly/brushup.webp", "assets/yearwithwilly/butterflies.webp", "assets/yearwithwilly/cranegames.webp", "assets/yearwithwilly/hamsterchef.webp", "assets/yearwithwilly/loveadvice.webp", "assets/yearwithwilly/mc_summerfest.webp", "assets/yearwithwilly/nijienchanted_fishing.webp", "assets/yearwithwilly/nijienchanted_petwillerton.webp", "assets/yearwithwilly/outfitreveal.webp", "assets/yearwithwilly/peak.webp", "assets/yearwithwilly/terrasanji.webp",
+	"assets/bdayart/catboywillyfan123.webp", "assets/bdayart/CIlkiy_.webp", "assets/bdayart/Daidai.webp", "assets/bdayart/NightaChan.webp", "assets/bdayart/otokeneko.webp", "assets/bdayart/ruri.webp", "assets/bdayart/SkiyLine.webp", "assets/bdayart/Tostyiie.webp", "assets/bdayart/zhyuun.webp"
+]
+
 function randomPhoto() {
 	let randomNum1 = Math.floor(Math.random() * pape_photos.length);
 	let randomNum2 = Math.floor(Math.random() * pape_photos.length);
 	document.getElementById("papeGallery1").src = pape_photos[randomNum1];
 	document.getElementById("papeGallery2").src = pape_photos[randomNum2];
+}
+
+function randomFanartPhoto() {
+	let randomNum3 = Math.floor(Math.random() * fanart_photos.length);
+	let randomNum4 = Math.floor(Math.random() * fanart_photos.length);
+	document.getElementById("fanartGallery1").src = fanart_photos[randomNum3];
+	document.getElementById("fanartGallery2").src = fanart_photos[randomNum4];
 }
 
 $(document).ready(function () {
@@ -92,9 +104,11 @@ $(document).ready(function () {
 	owl.owlCarousel({
 		items: 1,
 		loop: true,
-		nav: false,
+		nav: true,
 		center: true,
 		margin: 2,
+		autoplay: true,
+		autoplayHoverPause:true,
 	});
 
 	/*keyboard navigation*/
